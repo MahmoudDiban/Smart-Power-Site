@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Smart Power | سمارت باور – شواحن، طاقة شمسية، تخزين، CPMS</title>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800;900&family=Inter:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f3f8f5;--sf:#fff;--tx:#0b1b15;--mu:#586a60;--ln:#dbe7e0;--g:#079a5a;--a:#e08f00;--soft:#e6f4ec;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#07130e;--sf:#0d1f17;--tx:#e9f4ee;--mu:#9bb2a7;--ln:#1c3228;--g:#2ee89a;--a:#ffb931;--soft:#0f2a1f}}
+:root[data-theme="dark"]{--bg:#07130e;--sf:#0d1f17;--tx:#e9f4ee;--mu:#9bb2a7;--ln:#1c3228;--g:#2ee89a;--a:#ffb931;--soft:#0f2a1f}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:calc(env(safe-area-inset-top,0px) + 76px)}
+body{margin:0;background:var(--bg);color:var(--tx);font:17px/1.75 "Tajawal",system-ui,Tahoma,sans-serif}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:#04100b;z-index:70}
+a{color:inherit;text-decoration:none}
+svg use{fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.dk{--sf:#0c1e16;--tx:#e9f4ee;--mu:#9bb2a7;--ln:#1d3329;--g:#2ee89a;--a:#ffb931;--soft:#0f2a1f;background:#04100b;color:var(--tx)}
+.w{max-width:1180px;margin:0 auto;padding:0 22px}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:60;background:rgba(4,16,11,.92);backdrop-filter:blur(10px);border-bottom:1px solid #12281e;color:#e9f4ee}
+.nav{display:flex;align-items:center;justify-content:space-between;height:70px;gap:18px}
+.logo{display:flex;align-items:center;gap:10px;font-weight:900;font-size:21px}
+.logo i{width:38px;height:38px;border-radius:11px;background:linear-gradient(135deg,#2ee89a,#ffb931);display:grid;place-items:center;color:#04100b}
+.links{display:flex;gap:24px;font-weight:500;color:#9bb2a7}.links a:hover{color:#2ee89a}
+.btn{display:inline-flex;align-items:center;gap:8px;background:var(--g);color:#04100b;padding:12px 24px;border-radius:12px;font:700 16px "Tajawal",sans-serif;border:0;cursor:pointer}
+.btn:hover{filter:brightness(1.1)}.btn.o{background:transparent;color:#e9f4ee;border:1.5px solid #2a4a3b}.btn.o:hover{border-color:#2ee89a;color:#2ee89a}
+.menu{display:none;background:none;border:1px solid #2a4a3b;color:#e9f4ee;border-radius:10px;padding:6px 12px;font:inherit}
+.i{width:26px;height:26px}
+.hero{position:relative;overflow:hidden;padding:70px 0 0;background:radial-gradient(700px 420px at 15% 10%,rgba(46,232,154,.16),transparent),radial-gradient(600px 400px at 90% 90%,rgba(255,185,49,.12),transparent),#04100b}
+.hero::before{content:"";position:absolute;inset:0;background-image:linear-gradient(#ffffff08 1px,transparent 1px),linear-gradient(90deg,#ffffff08 1px,transparent 1px);background-size:48px 48px;mask-image:linear-gradient(#000,transparent 85%)}
+.hero .w{position:relative}
+.hg{display:grid;grid-template-columns:1.05fr .95fr;gap:30px;align-items:center}
+.tag{display:inline-block;border:1px solid #1f4d38;background:#0b2519;color:#2ee89a;padding:5px 15px;border-radius:99px;font-weight:700;font-size:14px;margin-bottom:18px}
+h1{font-size:56px;line-height:1.2;margin:0 0 18px;font-weight:900}
+h1 em{font-style:normal;background:linear-gradient(90deg,#2ee89a,#ffb931);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p.l{color:#9bb2a7;font-size:19px;max-width:540px;margin:0 0 28px}
+.cta{display:flex;gap:12px;flex-wrap:wrap}
+.vis svg{width:100%;height:auto;display:block}
+.fl{stroke-dasharray:6 8;animation:d 1.2s linear infinite}@keyframes d{to{stroke-dashoffset:-28}}
+.strip{display:grid;grid-template-columns:repeat(4,1fr);margin-top:56px;border:1px solid #17302390;border-bottom:0;border-radius:22px 22px 0 0;background:#0a1c14cc;backdrop-filter:blur(6px)}
+.strip div{padding:26px 18px;text-align:center;border-inline-start:1px solid #173023}.strip div:first-child{border:0}
+.strip b{display:block;font-size:40px;font-weight:900;color:#2ee89a;line-height:1.2}.strip span{color:#9bb2a7;font-size:15px}
+.std{padding:16px 0;border-bottom:1px solid var(--ln);background:var(--sf);color:var(--mu);font-size:14px}
+.std .w{display:flex;gap:10px 26px;flex-wrap:wrap;justify-content:center;align-items:center}.std b{color:var(--tx)}
+section{padding:84px 0}
+.hd{max-width:680px;margin:0 0 40px}.hd.c{margin-inline:auto;text-align:center}
+.kk{color:var(--g);font-weight:800;font-size:15px;letter-spacing:.3px}
+.hd h2{font-size:38px;line-height:1.3;margin:4px 0 10px;font-weight:900}.hd p{margin:0;color:var(--mu)}
+.sv{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.cd{background:var(--sf);border:1px solid var(--ln);border-radius:22px;padding:28px;position:relative;transition:.25s}
+.cd:hover{transform:translateY(-5px);border-color:var(--g);box-shadow:0 18px 40px -22px var(--g)}
+.cd .n{position:absolute;top:20px;left:24px;font-size:44px;font-weight:900;color:var(--ln)}
+.ic{width:56px;height:56px;border-radius:16px;background:var(--soft);color:var(--g);display:grid;place-items:center;margin-bottom:16px}.ic .i{width:30px;height:30px}
+.cd h3{margin:0 0 6px;font-size:21px}.cd p{margin:0 0 12px;color:var(--mu);font-size:16px}
+.cd ul{list-style:none;margin:0;padding:12px 0 0;border-top:1px dashed var(--ln);font-size:15px;color:var(--mu)}.cd li{padding:2px 0}.cd li::before{content:"●";color:var(--g);font-size:8px;margin-inline-end:8px;vertical-align:middle}
+.cd.big{background:linear-gradient(160deg,#0c2b1e,#04100b);color:#e9f4ee;border-color:#1d4a35;grid-row:span 1}.cd.big p,.cd.big ul{color:#9bb2a7}.cd.big .ic{background:#12392a;color:#2ee89a}.cd.big .n{color:#14382a}.cd.big ul{border-color:#24503c}
+.sec{background:var(--sf);border-block:1px solid var(--ln)}
+.sc{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}
+.sc div{background:var(--bg);border:1px solid var(--ln);border-radius:16px;padding:18px 8px;text-align:center;font-weight:700;font-size:15px}.sc .i{display:block;margin:0 auto 6px;color:var(--g);width:30px;height:30px}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:22px}
+.tabs button{background:var(--sf);color:var(--tx);border:1px solid var(--ln);border-radius:99px;padding:8px 20px;font:700 15px "Tajawal",sans-serif;cursor:pointer}.tabs button.on{background:var(--g);color:#04100b;border-color:var(--g)}
+.pj{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.p{background:var(--sf);border:1px solid var(--ln);border-radius:22px;overflow:hidden}.p.h{display:none}
+.pv{height:150px;display:grid;place-items:center;color:#fff;position:relative}.pv .i{width:56px;height:56px;opacity:.95}
+.pv span{position:absolute;top:12px;right:12px;background:#0007;border-radius:99px;padding:2px 12px;font-size:13px;font-weight:700}
+.pv.ev{background:linear-gradient(135deg,#0a7f4a,#12c47a)}.pv.so{background:linear-gradient(135deg,#d97706,#fbbf24)}.pv.bs{background:linear-gradient(135deg,#1d4ed8,#38bdf8)}
+.pb{padding:20px}.pb h4{margin:0 0 2px;font-size:19px}.pb small{color:var(--mu);font-size:14px}
+.ch{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.ch i{font-style:normal;background:var(--soft);color:var(--g);border-radius:8px;padding:2px 11px;font-size:14px;font-weight:700}
+.note{color:var(--mu);font-size:13px;margin-top:16px}
+.cp{display:grid;grid-template-columns:1fr 1.05fr;gap:44px;align-items:center}
+.cp h2{font-size:38px;line-height:1.3;margin:4px 0 12px;font-weight:900}.cp p{color:var(--mu)}
+.ft{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:22px 0 26px}
+.ft div{background:#0b2018;border:1px solid #17352a;border-radius:14px;padding:14px 16px;font-size:15px}.ft b{display:block;color:#2ee89a;font-size:16px}
+.db{background:#07170f;border:1px solid #1d3b2d;border-radius:22px;padding:18px;box-shadow:0 30px 70px -30px #2ee89a55}
+.dt{display:flex;justify-content:space-between;color:#9bb2a7;font-size:13px;margin-bottom:12px}.dt i{font-style:normal;color:#2ee89a}
+.kp{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:14px}.kp div{background:#0d2218;border-radius:12px;padding:10px 6px;text-align:center}.kp b{display:block;color:#2ee89a;font-size:21px}.kp span{font-size:12px;color:#9bb2a7}
+.bar{display:flex;align-items:flex-end;gap:7px;height:96px;direction:ltr;margin-bottom:12px}.bar i{flex:1;background:linear-gradient(#2ee89a,#0a7f4a);border-radius:5px 5px 0 0}
+.rw{display:flex;justify-content:space-between;padding:8px 0;border-top:1px solid #15301f;font-size:14px}
+.pl{padding:1px 10px;border-radius:99px;font-size:12px;font-weight:700}.o1{background:#2ee89a22;color:#2ee89a}.o2{background:#ffb93122;color:#ffb931}.o3{background:#f8717122;color:#f87171}
+.st{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.s{background:var(--sf);border:1px solid var(--ln);border-radius:20px;padding:26px 22px;position:relative}
+.s em{font-style:normal;position:absolute;top:-17px;right:20px;width:36px;height:36px;border-radius:50%;background:var(--g);color:#04100b;font-weight:900;display:grid;place-items:center}
+.s h4{margin:6px 0 4px;font-size:19px}.s p{margin:0;color:var(--mu);font-size:15px}
+.cv{display:flex;flex-wrap:wrap;gap:10px}.cv span{background:var(--sf);border:1px solid var(--ln);border-radius:99px;padding:6px 18px;font-weight:700;font-size:15px}.cv span::before{content:"";display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--g);margin-inline-end:8px}
+.ct{display:grid;grid-template-columns:1fr 1fr;gap:34px;align-items:start}
+.ct h2{font-size:38px;line-height:1.3;margin:4px 0 12px;font-weight:900}
+.fm{background:#0c1e16;border:1px solid #1d3329;border-radius:22px;padding:26px}
+.fm label{display:block;margin-bottom:12px;font-weight:700;font-size:14px}.fm input,.fm select,.fm textarea{width:100%;margin-top:4px;padding:12px 14px;border-radius:11px;border:1px solid #234536;background:#07170f;color:#e9f4ee;font:16px "Tajawal",sans-serif}
+.ln{margin:10px 0;color:#9bb2a7}.ln b{color:#e9f4ee}
+footer{background:#030c08;color:#7f968b;padding:30px 0;font-size:14px;border-top:1px solid #12281e}
+footer .w{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
+@media (max-width:900px){.links{display:none}.links.open{display:flex;position:absolute;top:70px;inset-inline:0;background:#04100b;flex-direction:column;padding:16px 22px;border-bottom:1px solid #12281e}.menu{display:block}
+.hg,.cp,.ct{grid-template-columns:1fr}h1{font-size:40px}.hd h2,.cp h2,.ct h2{font-size:30px}.sv,.pj{grid-template-columns:1fr 1fr}.st{grid-template-columns:1fr 1fr;row-gap:30px}.sc{grid-template-columns:repeat(3,1fr)}.strip{grid-template-columns:1fr 1fr}.strip div:nth-child(3){border:0}.nb{display:none}}
+@media (max-width:580px){.sv,.pj,.st{grid-template-columns:1fr}.strip b{font-size:32px}.kp{grid-template-columns:1fr 1fr}}
+html[dir=ltr] body{font-family:"Inter","Tajawal",system-ui,sans-serif}html[dir=ltr] .cd .n{left:auto;right:24px}html[dir=ltr] .pv span{right:auto;left:12px}html[dir=ltr] .s em{right:auto;left:20px}html[dir=ltr] .fm input[type=tel]{text-align:left!important}html[dir=ltr] h1{line-height:1.15}.lgb{background:none;border:1px solid #2a4a3b;color:#e9f4ee;border-radius:10px;padding:8px 14px;font:700 14px "Inter","Tajawal",sans-serif;cursor:pointer}.lgb:hover{border-color:#2ee89a;color:#2ee89a}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="bolt" viewBox="0 0 24 24"><path d="M13 2 4 14h6l-1 8 9-12h-6z"/></symbol>
+<symbol id="sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.5 1.5M17.5 17.5 19 19M19 5l-1.5 1.5M6.5 17.5 5 19"/></symbol>
+<symbol id="bat" viewBox="0 0 24 24"><rect x="2" y="7" width="18" height="10" rx="2"/><path d="M22 11v2M11 9l-2 3h3l-2 3"/></symbol>
+<symbol id="plug" viewBox="0 0 24 24"><path d="M9 2v6M15 2v6M6 8h12v4a6 6 0 0 1-12 0zM12 18v4"/></symbol>
+<symbol id="wr" viewBox="0 0 24 24"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.4 2.4-2.6-.6-.6-2.6z"/></symbol>
+<symbol id="tr" viewBox="0 0 24 24"><path d="M3 7h13v10H3zM16 10h3l2 3v4h-5"/><circle cx="7" cy="18" r="1.5"/><circle cx="17" cy="18" r="1.5"/></symbol>
+<symbol id="mo" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4M7 12l3-3 3 2 4-4"/></symbol>
+<symbol id="gr" viewBox="0 0 24 24"><path d="M12 2v6M8 22l4-14 4 14M5 12h14M7 17h10"/></symbol>
+<symbol id="bd" viewBox="0 0 24 24"><path d="M4 21V5l8-3v19M12 9h8v12M7 8h2M7 12h2M7 16h2M15 13h2M15 17h2"/></symbol>
+<symbol id="hm" viewBox="0 0 24 24"><path d="M3 11 12 3l9 8M5 10v11h14V10"/></symbol>
+<symbol id="fa" viewBox="0 0 24 24"><path d="M3 21V9l6 4V9l6 4V5h6v16zM7 17h2M13 17h2"/></symbol>
+<symbol id="fl" viewBox="0 0 24 24"><path d="M5 17h14l-1-6H6zM3 17h18v3H3zM9 11 10 6h4l1 5"/></symbol>
+<symbol id="ho" viewBox="0 0 24 24"><path d="M3 21V8l9-5 9 5v13M9 21v-6h6v6M3 12h18"/></symbol>
+<symbol id="rd" viewBox="0 0 24 24"><path d="M8 3 4 21M16 3l4 18M12 4v3M12 11v3M12 18v3"/></symbol>
+</defs></svg>
+
+<header><div class="w nav">
+<a class="logo" href="#top"><i><svg class="i"><use href="#bolt"/></svg></i>Smart Power</a>
+<nav class="links" id="lk"><a href="#services" data-en="Services">خدماتنا</a><a href="#sectors" data-en="Sectors">القطاعات</a><a href="#projects" data-en="Solutions">حلولنا</a><a href="#cpms" data-en="CPMS Platform">منصة CPMS</a><a href="#contact" data-en="Contact">تواصل</a></nav>
+<span style="display:flex;gap:10px;align-items:center"><button class="lgb" id="lb" type="button">EN</button><a class="btn nb" href="#contact" data-en="Request a quote">اطلب عرض سعر</a><button class="menu" onclick="document.getElementById('lk').classList.toggle('open')" data-en="Menu">القائمة</button></span>
+</div></header>
+
+<main id="top">
+<div class="hero dk"><div class="w">
+<div class="hg">
+<div>
+<span class="tag">⚡ حلول الطاقة الذكية</span>
+<h1 data-en="Building the &lt;em&gt;energy infrastructure&lt;/em&gt; that powers your business">نبني <em>بنية الطاقة</em> التي تحرّك أعمالك</h1>
+<p class="l">شواحن سيارات كهربائية، طاقة شمسية، وأنظمة تخزين بالبطاريات. نوفّر ونركّب ونشغّل ونصون، ونتحكم بكل شيء عبر منصتنا CPMS لإدارة شبكات الشحن.</p>
+<div class="cta"><a class="btn" href="#contact" data-en="Start your project">ابدأ مشروعك الآن</a><a class="btn o" href="#projects" data-en="View our solutions">استعرض حلولنا</a></div>
+</div>
+<div class="vis">
+<svg viewBox="0 0 460 400" role="img" aria-label="منظومة طاقة متكاملة تربط الشمس والبطاريات والشبكة والشواحن عبر CPMS">
+<g stroke="#2ee89a" stroke-width="2" fill="none"><path class="fl" d="M92 90 200 180"/><path class="fl" d="M368 90 260 180"/><path class="fl" d="M92 320 200 230"/><path class="fl" d="M368 320 260 230"/></g>
+<circle cx="230" cy="205" r="62" fill="#0b2519" stroke="#2ee89a" stroke-width="2"/><circle cx="230" cy="205" r="80" fill="none" stroke="#2ee89a33"/><circle cx="230" cy="205" r="100" fill="none" stroke="#2ee89a18"/>
+<text x="230" y="212" text-anchor="middle" fill="#2ee89a" font-weight="900" font-size="24">CPMS</text>
+<g fill="#0c1e16" stroke="#1f4d38" stroke-width="1.5"><circle cx="76" cy="76" r="40"/><circle cx="384" cy="76" r="40"/><circle cx="76" cy="334" r="40"/><circle cx="384" cy="334" r="40"/></g>
+<g color="#ffb931"><use href="#sun" x="56" y="56" width="40" height="40"/></g>
+<g color="#38bdf8"><use href="#bat" x="364" y="56" width="40" height="40"/></g>
+<g color="#9bb2a7"><use href="#gr" x="56" y="314" width="40" height="40"/></g>
+<g color="#2ee89a"><use href="#plug" x="364" y="314" width="40" height="40"/></g>
+<g fill="#e9f4ee" font-size="14" font-weight="700" text-anchor="middle"><text x="76" y="140" data-en="Solar">طاقة شمسية</text><text x="384" y="140" data-en="Battery storage">تخزين بطاريات</text><text x="76" y="398" data-en="Grid">الشبكة</text><text x="384" y="398" data-en="EV chargers">شواحن EV</text></g>
+</svg>
+</div>
+</div>
+<div class="strip">
+<div><b>2025</b><span data-en="Founded">سنة التأسيس</span></div>
+<div><b data-to="6">0</b><span data-en="Integrated services under one roof">خدمات متكاملة تحت سقف واحد</span></div>
+<div><b data-to="4">0</b><span data-en="Stages we handle: supply, install, operate, maintain">مراحل نتولاها: توريد، تركيب، تشغيل، صيانة</span></div>
+<div><b>24/7</b><span data-en="Technical support and monitoring">دعم فني ومراقبة</span></div>
+</div>
+</div></div>
+
+<div class="std"><div class="w"><b data-en="Standards and protocols we work with:">معايير وبروتوكولات نعمل بها:</b><span>OCPP 1.6 / 2.0.1</span><span>IEC 61851</span><span>IEC 62109</span><span>IEC 62619</span><span data-en="Utility and authority requirements">اشتراطات الجهات المختصة والمرافق</span></div></div>
+
+<section id="services"><div class="w">
+<div class="hd"><span class="kk" data-en="What we offer">ماذا نقدّم</span><h2 data-en="An integrated service chain from idea to operation">منظومة خدمات متكاملة من الفكرة إلى التشغيل</h2><p data-en="We cover the entire project cycle with one team and one point of responsibility, with no need for multiple contractors.">نغطي كامل دورة المشروع بفريق واحد ومسؤولية واحدة، دون الحاجة لتعدد المقاولين.</p></div>
+<div class="sv">
+<div class="cd big"><span class="n">01</span><div class="ic"><svg class="i"><use href="#plug"/></svg></div><h3 data-en="EV chargers">شواحن السيارات الكهربائية</h3><p data-en="Ultra-fast AC and DC charging stations for homes, businesses and highways.">محطات شحن AC وDC فائقة السرعة للمنازل والشركات والطرق السريعة.</p><ul><li data-en="AC chargers from 7 to 22 kW">شواحن AC من 7 إلى 22 كيلوواط</li><li data-en="DC chargers from 30 to 360 kW">شواحن DC من 30 إلى 360 كيلوواط</li><li data-en="Station design and electrical civil works">تصميم المحطات وأعمال الكهرباء المدنية</li></ul></div>
+<div class="cd"><span class="n">02</span><div class="ic"><svg class="i"><use href="#sun"/></svg></div><h3 data-en="Solar">الطاقة الشمسية</h3><p data-en="Rooftop, ground-mount and carport systems to cut your electricity bill.">أنظمة سطحية وأرضية ومظلات مواقف لخفض فاتورة الكهرباء.</p><ul><li data-en="Feasibility study and system design">دراسة الجدوى وتصميم النظام</li><li data-en="Grid-tied or off-grid operation">ربط مع الشبكة أو تشغيل مستقل</li><li data-en="Commercial and industrial plants">مزارع تجارية وصناعية</li></ul></div>
+<div class="cd"><span class="n">03</span><div class="ic"><svg class="i"><use href="#bat"/></svg></div><h3 data-en="Battery storage systems">أنظمة تخزين البطاريات</h3><p data-en="Storage that cuts peak demand, supports chargers and keeps operations running.">تخزين يخفّض الذروة ويدعم الشواحن ويضمن استمرارية التشغيل.</p><ul><li data-en="Solutions from kWh to MWh">حلول من كيلوواط ساعة إلى ميغاواط ساعة</li><li data-en="Backup power and load balancing">احتياط الطاقة وتسوية الأحمال</li><li data-en="Integrated with solar and chargers">تكامل مع الشمسية والشواحن</li></ul></div>
+<div class="cd"><span class="n">04</span><div class="ic"><svg class="i"><use href="#tr"/></svg></div><h3 data-en="Supply and installation">التوريد والتركيب</h3><p data-en="Certified equipment supply and precise engineering delivery to standard.">توريد معدات معتمدة وتنفيذ هندسي دقيق وفق المعايير.</p><ul><li data-en="Project management with a clear schedule">إدارة مشروع وجدول زمني واضح</li><li data-en="Testing, commissioning and handover">اختبار وتشغيل تجريبي وتسليم</li><li data-en="Required approvals and permits">الاعتمادات والموافقات اللازمة</li></ul></div>
+<div class="cd"><span class="n">05</span><div class="ic"><svg class="i"><use href="#wr"/></svg></div><h3 data-en="Operation and maintenance contracts">التشغيل وعقود الصيانة</h3><p data-en="Periodic contracts with defined service levels and guaranteed response time.">عقود دورية بمستويات خدمة محددة ووقت استجابة مضمون.</p><ul><li data-en="Preventive and corrective maintenance">صيانة وقائية وتصحيحية</li><li data-en="Round-the-clock technical support">دعم فني على مدار الساعة</li><li data-en="Periodic performance and uptime reports">تقارير أداء وتوفر دورية</li></ul></div>
+<div class="cd"><span class="n">06</span><div class="ic"><svg class="i"><use href="#mo"/></svg></div><h3 data-en="CPMS charger management platform">منصة إدارة الشواحن CPMS</h3><p data-en="Control, monitor and bill all your chargers from one dashboard.">تحكم ومراقبة وفوترة لكل شواحنك من لوحة واحدة.</p><ul><li data-en="Live monitoring and alerts">مراقبة لحظية وتنبيهات</li><li data-en="Tariffs, payments and a driver app">تعرفة ومدفوعات وتطبيق للسائقين</li><li data-en="Connect any OCPP-compatible charger">ربط أي شاحن يدعم OCPP</li></ul></div>
+</div></div></section>
+
+<section id="sectors" class="sec"><div class="w">
+<div class="hd c"><span class="kk" data-en="Sectors">القطاعات</span><h2 data-en="Solutions designed for every type of client">حلول مصممة لكل نوع من العملاء</h2></div>
+<div class="sc">
+<div><svg class="i"><use href="#hm"/></svg><span data-en="Homes and villas">سكني وفلل</span></div><div><svg class="i"><use href="#bd"/></svg><span data-en="Commercial complexes">مجمعات تجارية</span></div><div><svg class="i"><use href="#fa"/></svg><span data-en="Factories">مصانع</span></div><div><svg class="i"><use href="#tr"/></svg><span data-en="Fleets and vehicles">أساطيل ومركبات</span></div><div><svg class="i"><use href="#fl"/></svg><span data-en="Fuel stations">محطات وقود</span></div><div><svg class="i"><use href="#ho"/></svg><span data-en="Hotels and resorts">فنادق ومنتجعات</span></div>
+</div></div></section>
+
+<section id="projects"><div class="w">
+<div class="hd"><span class="kk" data-en="Solutions">حلولنا</span><h2>نماذج حلول جاهزة لمشروعك</h2><p>تصاميم مرجعية نطوّعها حسب موقعك واحتياجك في الشحن والطاقة الشمسية والتخزين.</p></div>
+<div class="tabs" id="tb"><button class="on" data-f="all" data-en="All">الكل</button><button data-f="ev" data-en="Chargers">الشواحن</button><button data-f="so" data-en="Solar">الطاقة الشمسية</button><button data-f="bs" data-en="Storage">التخزين</button></div>
+<div class="pj">
+<div class="p" data-c="ev"><div class="pv ev"><span data-en="EV chargers">شواحن EV</span><svg class="i"><use href="#rd"/></svg></div><div class="pb"><h4 data-en="Fast-charging station for highways">محطة شحن سريع للطرق السريعة</h4><small data-en="Long-distance corridors and stations">للمسافات الطويلة والمحطات</small><div class="ch"><i data-en="DC chargers up to 360 kW">شواحن DC حتى 360 kW</i><i data-en="Run on CPMS">تشغيل عبر CPMS</i></div></div></div>
+<div class="p" data-c="so"><div class="pv so"><span data-en="Solar">طاقة شمسية</span><svg class="i"><use href="#fa"/></svg></div><div class="pb"><h4 data-en="Solar plant for factories and warehouses">محطة شمسية للمصانع والمستودعات</h4><small data-en="Cut your electricity bill">خفض فاتورة الكهرباء</small><div class="ch"><i data-en="From 500 kW to multi-MW">من 500 kW إلى عدة MW</i><i data-en="Grid-connected">ربط مع الشبكة</i></div></div></div>
+<div class="p" data-c="bs"><div class="pv bs"><span data-en="Storage">تخزين</span><svg class="i"><use href="#bat"/></svg></div><div class="pb"><h4 data-en="Storage system for load balancing">نظام تخزين لتسوية الأحمال</h4><small data-en="For factories and complexes">للمصانع والمجمعات</small><div class="ch"><i data-en="kWh to MWh scale">من kWh إلى MWh</i><i data-en="Peak shaving">تقليل الذروة</i></div></div></div>
+<div class="p" data-c="ev"><div class="pv ev"><span data-en="EV chargers">شواحن EV</span><svg class="i"><use href="#bd"/></svg></div><div class="pb"><h4 data-en="Commercial complex parking">مواقف المجمعات التجارية</h4><small data-en="Charging for visitors and staff">شحن للزوار والموظفين</small><div class="ch"><i data-en="Multiple AC chargers">شواحن AC متعددة</i><i data-en="Billing via CPMS">فوترة عبر CPMS</i></div></div></div>
+<div class="p" data-c="so"><div class="pv so"><span data-en="Solar">طاقة شمسية</span><svg class="i"><use href="#sun"/></svg></div><div class="pb"><h4 data-en="Solar carports with chargers">مظلات مواقف مع شواحن</h4><small data-en="Shade, power and charging in one place">ظل وطاقة وشحن في موقع واحد</small><div class="ch"><i data-en="Solar generation">توليد شمسي</i><i data-en="Direct charging">شحن مباشر</i></div></div></div>
+<div class="p" data-c="bs"><div class="pv bs"><span data-en="Fully integrated">تكامل كامل</span><svg class="i"><use href="#gr"/></svg></div><div class="pb"><h4 data-en="Integrated fleet hub">مركز أساطيل متكامل</h4><small data-en="Solar + storage + chargers">شمسي + تخزين + شواحن</small><div class="ch"><i data-en="Solar">شمسي</i><i data-en="Storage">تخزين</i><i data-en="Chargers">شواحن</i></div></div></div>
+</div>
+<p class="note" data-en="* These are reference designs we tailor to each site and need, not a list of completed projects. We will add our delivered projects as they are completed.">* هذه نماذج لحلول مرجعية نصممها حسب الموقع والاحتياج، وليست قائمة بمشاريع منفّذة. سنضيف مشاريعنا الفعلية فور تنفيذها.</p>
+</div></section>
+
+<section id="cpms" class="dk"><div class="w cp">
+<div>
+<span class="kk" style="color:#2ee89a" data-en="CPMS Platform">منصة CPMS</span>
+<h2 data-en="Our charging network management system">نظام إدارة شبكة الشواحن الخاص بنا</h2>
+<p data-en="A cloud platform that manages chargers, sites, users and payments, built for operators, businesses and property owners.">منصة سحابية تدير الشواحن والمواقع والمستخدمين والمدفوعات، تناسب المشغّلين والشركات وأصحاب المجمعات.</p>
+<div class="ft"><div><b data-en="Real-time monitoring">مراقبة لحظية</b><span data-en="Status of every charger and instant alerts">حالة كل شاحن وتنبيهات فورية</span></div><div><b data-en="Pricing and billing">التسعير والفوترة</b><span data-en="Flexible tariffs and online payments">تعرفة مرنة ومدفوعات إلكترونية</span></div><div><b data-en="Load balancing">موازنة الأحمال</b><span data-en="Linked with solar and batteries">ربط بالطاقة الشمسية والبطاريات</span></div><div><b data-en="Reports and analytics">تقارير وتحليلات</b><span data-en="Energy, revenue and uptime">طاقة وإيرادات وأوقات التشغيل</span></div></div>
+<a class="btn" href="#contact" data-en="Request a demo">اطلب عرضًا تجريبيًا</a>
+</div>
+<div class="db" aria-label="نموذج توضيحي للوحة تحكم">
+<div class="dt"><span><i>●</i> <span data-en="Control panel – live">لوحة التحكم – مباشر</span></span><span data-en="Illustrative demo">نموذج توضيحي</span></div>
+<div class="kp"><div><b>186</b><span data-en="Chargers online">شاحن متصل</span></div><div><b>42</b><span data-en="Active sessions">جلسة شحن الآن</span></div><div><b>86 MWh</b><span data-en="Energy this month">طاقة الشهر</span></div><div><b>3</b><span data-en="Alerts">تنبيهات</span></div></div>
+<div class="bar"><i style="height:30%"></i><i style="height:48%"></i><i style="height:40%"></i><i style="height:66%"></i><i style="height:58%"></i><i style="height:82%"></i><i style="height:74%"></i><i style="height:95%"></i><i style="height:70%"></i><i style="height:88%"></i></div>
+<div class="rw"><span data-en="Damascus complex – 12 chargers">مجمع دمشق – 12 شاحن</span><span class="pl o1" data-en="Available">متاح</span></div>
+<div class="rw"><span data-en="Highway – Station 03">الطريق السريع – محطة 03</span><span class="pl o2" data-en="Charging">قيد الشحن</span></div>
+<div class="rw"><span data-en="Hama plant – Charger 07">مصنع حماة – شاحن 07</span><span class="pl o3" data-en="Needs service">يحتاج صيانة</span></div>
+</div></div></section>
+
+<section><div class="w">
+<div class="hd c"><span class="kk" data-en="How we work">آلية العمل</span><h2 data-en="Four clear stages to go-live">أربع مراحل واضحة حتى التشغيل</h2></div>
+<div class="st">
+<div class="s"><em>1</em><h4 data-en="Study and design">دراسة وتصميم</h4><p data-en="Site visit, load analysis and a detailed quotation.">زيارة الموقع وتحليل الأحمال وعرض سعر تفصيلي.</p></div>
+<div class="s"><em>2</em><h4 data-en="Supply">توريد</h4><p data-en="Certified equipment from trusted manufacturers.">معدات معتمدة من مصنّعين موثوقين.</p></div>
+<div class="s"><em>3</em><h4 data-en="Install and commission">تركيب وتشغيل</h4><p data-en="Execution, testing, platform connection and handover.">تنفيذ واختبار وربط بالمنصة وتسليم.</p></div>
+<div class="s"><em>4</em><h4 data-en="Maintenance and support">صيانة ودعم</h4><p data-en="Periodic contracts, monitoring and regular reports.">عقود دورية ومراقبة وتقارير منتظمة.</p></div>
+</div></div></section>
+
+<section class="sec"><div class="w">
+<div class="hd"><span class="kk" data-en="Coverage">التغطية</span><h2 data-en="We serve you wherever you are in Syria">نخدمك أينما كان موقعك في سوريا</h2></div>
+<div class="cv"><span data-en="Damascus and its countryside">دمشق وريفها</span><span data-en="Aleppo">حلب</span><span data-en="Homs">حمص</span><span data-en="Hama">حماة</span><span data-en="Latakia">اللاذقية</span><span data-en="Tartus">طرطوس</span><span data-en="Idlib">إدلب</span><span data-en="Daraa">درعا</span><span data-en="Deir ez-Zor">دير الزور</span></div>
+</div></section>
+
+<section id="contact" class="dk"><div class="w ct">
+<div><span class="kk" style="color:#2ee89a" data-en="Contact us">تواصل معنا</span><h2 data-en="Ready to deliver your next project">جاهزون لتنفيذ مشروعك القادم</h2><p style="color:#9bb2a7" data-en="Send us your project details and our engineers will contact you within 24 hours.">أرسل لنا تفاصيل مشروعك وسيتواصل معك مهندسونا خلال 24 ساعة.</p>
+<p class="ln"><b data-en="Phone:">الهاتف:</b> <a href="tel:+963938789622" dir="ltr">+963 938 789 622</a></p><p class="ln"><b data-en="Email:">البريد:</b> <a href="mailto:info@smrt-power.com" dir="ltr">info@smrt-power.com</a></p><p class="ln"><b data-en="Location:">المقر:</b> <span data-en="Hama, Syria">حماة، سوريا</span></p><p class="ln"><b data-en="Technical support:">الدعم الفني:</b> <span data-en="Available 24/7 for maintenance-contract clients">متاح 24/7 لعملاء عقود الصيانة</span></p></div>
+<div class="fm">
+<label><span data-en="Name / Company">الاسم / الشركة</span><input type="text"></label>
+<label><span data-en="Mobile number">رقم الجوال</span><input type="tel" dir="ltr" style="text-align:right"></label>
+<label><span data-en="Service needed">الخدمة المطلوبة</span><select><option data-en="EV chargers">شواحن سيارات كهربائية</option><option data-en="Solar">طاقة شمسية</option><option data-en="Battery storage">تخزين بطاريات</option><option data-en="Maintenance contract">عقد صيانة</option><option data-en="CPMS Platform">منصة CPMS</option></select></label>
+<label><span data-en="Project details">تفاصيل المشروع</span><textarea rows="3"></textarea></label>
+<button class="btn" type="button" style="width:100%;justify-content:center" data-en="Send request">إرسال الطلب</button>
+</div></div></section>
+</main>
+<footer><div class="w"><span data-en="© 2026 Smart Power. All rights reserved.">© 2026 Smart Power. جميع الحقوق محفوظة.</span><span data-en="EV chargers · Solar · Storage · CPMS">شواحن · طاقة شمسية · تخزين · CPMS</span></div></footer>
+
+<script>
+(function(){
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(!e.isIntersecting)return;io.unobserve(e.target);var el=e.target,to=+el.dataset.to,t0=null;
+function f(t){t0=t0||t;var k=Math.min((t-t0)/1400,1);el.textContent=(el.dataset.p||'')+Math.round(to*(1-Math.pow(1-k,3))).toLocaleString('en')+(el.dataset.s||'');if(k<1)requestAnimationFrame(f)}requestAnimationFrame(f)})},{threshold:.4});
+document.querySelectorAll('[data-to]').forEach(function(n){io.observe(n)});
+document.getElementById('tb').addEventListener('click',function(e){var b=e.target.closest('button');if(!b)return;
+this.querySelectorAll('button').forEach(function(x){x.classList.toggle('on',x===b)});
+document.querySelectorAll('.p').forEach(function(p){p.classList.toggle('h',b.dataset.f!=='all'&&p.dataset.c!==b.dataset.f)})});
+document.querySelectorAll('#lk a').forEach(function(a){a.addEventListener('click',function(){document.getElementById('lk').classList.remove('open')})});
+})();
+
+(function(){var lb=document.getElementById('lb'),T={ar:document.title,en:'Smart Power | EV Chargers, Solar, Storage & CPMS'};
+function setLang(l){var h=document.documentElement;h.lang=l;h.dir=l==='en'?'ltr':'rtl';
+document.querySelectorAll('[data-en]').forEach(function(e){if(e.getAttribute('data-ar')===null)e.setAttribute('data-ar',e.innerHTML);e.innerHTML=l==='en'?e.getAttribute('data-en'):e.getAttribute('data-ar')});
+document.title=T[l];lb.textContent=l==='en'?'عربي':'EN';try{localStorage.setItem('sp-lang',l)}catch(x){}}
+lb.addEventListener('click',function(){setLang(document.documentElement.lang==='en'?'ar':'en')});
+var st=null;try{st=localStorage.getItem('sp-lang')}catch(x){}if(st==='en')setLang('en');})();
+</script>
+</body>
+</html>
